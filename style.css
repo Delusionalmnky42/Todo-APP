@@ -1,19 +1,46 @@
 h1 {
-    color: brown;
+    color: rgb(128, 33, 147);
     font-size: 50px;
 }
 
 h2 {
-    color: rgb(76, 0, 255);
+    color: rgb(100, 11, 46);
 }
 
 h3 {
-    color: blueviolet;
+    color: rgb(25, 183, 80);
 }
 
 li {
-    color: rgb(61, 42, 165);
+    color: rgb(19, 120, 24);
 }
 footer{
     color: brown;
 }
+.grid { 
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction:column;
+    list-style-type: none;
+    padding: 0;
+}
+.card {
+    border: 1px solid #10011a;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 200px;
+    transition: transform 0.3s;
+    margin-left: 0px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+    .welcome {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
